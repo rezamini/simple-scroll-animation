@@ -47,3 +47,9 @@ p {
         transition: none;
     }
 }
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
