@@ -53,3 +53,23 @@ p {
     filter: blur(0);
     transform: translateX(0);
 }
+
+.logos {
+    display: flex;
+}
+
+.logo:nth-child(2){
+    transition-delay: 200ms;   
+}
+
+.logo:nth-child(3){
+    transition-delay: 400ms;
+}
+
+.logo:nth-child(4){
+    transition-delay: 600ms;
+}
+
+.logo:nth-child(5){
+    transition-delay: 800ms;
+}
