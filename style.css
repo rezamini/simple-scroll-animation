@@ -58,7 +58,11 @@ p {
     display: flex;
 }
 
-.logo:nth-child(2){
+.logo:nth-child(n){
+    transition-delay: calc(200ms * var(--order));
+}
+
+/* .logo:nth-child(2){
     transition-delay: 200ms;   
 }
 
@@ -72,4 +76,4 @@ p {
 
 .logo:nth-child(5){
     transition-delay: 800ms;
-}
+} */
